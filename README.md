@@ -21,6 +21,13 @@ If you have any feedback or ideas on new functionalities to be added to the bot 
 ## Configuration and permissions
 I will not configure anything for anyone, you are the one that will have to fix the eventual missing permissions for the bot. **It requires to read, write and send embeds** in the channels. It's up to you to configure it in a way that users won't abuse/spam the commands in normal chats.
 
+## Possible errors
+You can encounter some bugs/errors while using it and the bot will either reply telling you what the issue is or react to your message with an emoji:
+
+- :heavy_exclamation_mark: = General error occurred
+- :no_entry_sign: = Missing permissions
+- :no_entry: = User banned from using commands
+
 ## Add to your server
 You just have to click [here](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) and then select the server you want to add the bot to, like in the following picture.
 
