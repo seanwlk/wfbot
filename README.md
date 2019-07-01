@@ -12,8 +12,12 @@ To have the full list of commands and functionalities type `!help` in chat.
 
 ## Extra features
 There are some features that I don't allow all users to use by default to prevent abuse and have a clean backend. For example the event timer can be used only as advanced user and you can simply request it to me by contacting and explaining your reasons, for example, you run a clan that plays a lot of specops and want to schedule the runs, or clanwars, ranked teams, etc...
-The same goes for the automatic news setup. The bot is able to push all *new* Warface news on a specific channel of the server. To prevent people from adding the push notification in every channel and flood my database and significantly slow down the experience for everyone.
-For both these cases (and future similar commands with similar limitations) just [open an issue](https://github.com/seanwlk/wfbot/issues/new)
+
+## News channel setup
+To setup a news channel you can use the command `!push_news #news_channel_name` but there are a few conditions.
+- Only server owner is able to use said command
+- It is possible to be configured only in servers with more than 20 members
+- It is possible to configure only **one** channel for each server
 
 ## Feedback
 If you have any feedback or ideas on new functionalities to be added to the bot please don't hesitate to [open an issue](https://github.com/seanwlk/wfbot/issues/new) or contact me on discord if you see me around, all ideas are very well appreciated since i would like to make an useful tool for everyone.
@@ -34,7 +38,7 @@ You just have to click [here](https://discordapp.com/oauth2/authorize?client_id=
 ![example](https://i.imgur.com/HOHUEy7.png)
 
 ## Disclaimer 
-Take the functionalities as they are, at the moment I do not plan to add a custom prefix per server and deep customization of commands. There can be downtowns of certain commands due to their backend that runs on my homeserver instead of the VPS. I reserve the right of adding/removing/changing features so if something stops working just check `!help`
+Take the functionalities as they are, at the moment I do not plan to add a custom prefix per server and deep customization of commands. There can be downtimes of certain commands due to their backend that runs on my homeserver instead of the VPS. I reserve the right of adding/removing/changing features so if something stops working just check `!help`
 
 ## Donate
 Please consider donating to support the project and maintain the server on which the bot is running. Thanks.
