@@ -1,5 +1,5 @@
 # wfbot 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/seanwlk/wfbot/issues/new)
+[![made-with-nodejs](https://img.shields.io/badge/Made%20with-Node.js-1f425f.svg)](https://www.python.org/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/seanwlk/wfbot/issues/new) [![LICENSE !](https://img.shields.io/github/license/seanwlk/wfbot)](https://github.com/seanwlk/wfbot/blob/master/LICENSE) 
 <p align="center">
     <a href="https://wf.my.com"><img src="https://i.imgur.com/AB5fREI.png"></a> <a href="https://discord.com"><img src="https://discordapp.com/assets/2c21aeda16de354ba5334551a883b481.png"></a> <br>
     Warface Discord bot with useful tools for the community.
