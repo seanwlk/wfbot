@@ -6,12 +6,8 @@
 </p>
 
 ## Functionalities
-Among the tools you could find there is stuff like checking current amount of online player per channel, game news, create timers for events that you will host on your server (for example a Marathon run at a certain time but your community is in different timezones, the timer will be the same for everyone), reference to useful materials, game ladders, player statistics and more to come. When you are bored while looking for rooms you can even "chat" with the bot AI and have fun.
-
+Among the tools you could find there is stuff like checking current amount of online player per channel, game news, reference to useful materials, game ladders, player statistics and more to come.
 To have the full list of commands and functionalities type `!help` in chat.
-
-## Extra features
-There are some features that I don't allow all users to use by default to prevent abuse and have a clean backend. For example the event timer can be used only as advanced user and you can simply request it to me by contacting and explaining your reasons, for example, you run a clan that plays a lot of specops and want to schedule the runs, or clanwars, ranked teams, etc...
 
 ## News channel setup
 To setup a news channel you can use the command `!push_news #news_channel_name` but there are a few conditions.
@@ -30,7 +26,6 @@ You can encounter some bugs/errors while using it and the bot will either reply 
 
 - :heavy_exclamation_mark: = General error occurred
 - :no_entry_sign: = Missing permissions
-- :no_entry: = User banned from using commands
 
 ## Add to your server
 You just have to click [here](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) and then select the server you want to add the bot to, like in the following picture.

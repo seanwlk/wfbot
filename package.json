@@ -1,21 +1,31 @@
 {
   "name": "wfbot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "wfbot VPS - NodeJs version",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^11.5.1",
+    "dbus": "^1.0.7",
+    "discord.js": "^12.2.0",
     "feedparser-promised": "^2.0.1",
+    "fs": "0.0.1-security",
     "html-entities": "^1.2.1",
-    "mysql": "^2.17.1",
-    "nodemon": "^1.19.1",
-    "request": "^2.88.0",
-    "simple-json-db": "^1.2.1"
+    "jssoup": "0.0.10",
+    "mysql": "^2.18.1",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.2",
+    "simple-json-db": "^1.2.2",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "discord_db.json"
+    ],
+    "delay": "2500"
   },
   "repository": {
     "type": "git",
