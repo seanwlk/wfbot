@@ -9,11 +9,18 @@
 Among the tools you could find there is stuff like checking current amount of online player per channel, game news, reference to useful materials, game ladders, player statistics and more to come.
 To have the full list of commands and functionalities type `!help` in chat.
 
+## Prefix
+The default prefix is the exclamation mark `!` but can be changed by a user that has `ADMINISTRATOR` permissions.
+
+## Language
+The default language is English but a user with `ADMINISTRATOR` permissions in a server can set a supported language by using `!language` command. 
+If your language is not currently supported you are more than welcome to submit one either by opening a pull request and creating a language.json file that you can find in `langs` folder or send the file to me via DM on discord and I'll add it.
+
 ## News channel setup
 To setup a news channel you can use the command `!push_news #news_channel_name` but there are a few conditions.
 - Only server owner is able to use said command
 - It is possible to be configured only in servers with more than 20 members
-- It is possible to configure only **one** channel for each server
+- It is possible to configure only **one** channel by type for each server (you can add pc, xbox, ps4 and ru news to the same server)
 
 ## Feedback
 If you have any feedback or ideas on new functionalities to be added to the bot please don't hesitate to [open an issue](https://github.com/seanwlk/wfbot/issues/new) or contact me on discord if you see me around, all ideas are very well appreciated since i would like to make an useful tool for everyone.

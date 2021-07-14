@@ -1,0 +1,250 @@
+{
+  "about" : {
+    "title" : "\u2139 About wfbot \u2139",
+    "purpose_t" : "Purpose",
+    "purpose_p" : "It's meant for Warface discord servers and it offers useful tools to the players.",
+    "utilities_t" : "Utilities",
+    "utilities_p" : "Among the tools you could find there is stuff like checking _current_ amount of online player per channel, game news, create events, reference to useful materials, game ladders and more.",
+    "credits_t" : "Credits",
+    "credits_p" : "The bot client has been fully developed and designed by <@159015952346906624> in Node.js with the addition of the _game layer integration_ by the project [warfacebot](https://github.com/Levak/warfacebot) by <@241671775019204609>.",
+    "feedback_t" : "Feedback",
+    "feedback_p" : "If you have any feedback or ideas on new functionalities to be added to the bot please DM <@159015952346906624>, all ideas are very well appreciated.",
+    "add_t" : "Add to your server",
+    "add_p" : "[Click Here](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) or read documentation here: https://github.com/seanwlk/wfbot",
+    "donate_t" : "Donate",
+    "donate_p" : "https://paypal.me/seanwlk \nPlease consider donating to support the project and maintain the server on which the bot is running. If it's free for you to add it doesn't mean it is for me to offer it to everyone in {{CURRENT_GUILDS}} servers. Thanks."
+  },
+  "goodies" : {
+    "title" : "\u2139\uFE0F Useful links \u2139\uFE0F",
+    "wiki" : { 
+      "title" : "Warface Wiki", 
+      "url" : "https://warface.fandom.com/wiki/Warface_Wiki"
+    },
+    "ongoing_events" : { 
+      "title" : "Ongoing In-game Events", 
+      "url" : "https://pc.warface.com/en/eventsingame"
+    },
+    "specops_rewards" : { 
+      "title" : "Spec-Ops Rewards", 
+      "url" : "https://pc.warface.com/forums/showthread.php?t=63901"
+    },
+    "achievements" : { 
+      "title" : "Achievements", 
+      "url" : "https://warface.fandom.com/wiki/Challenges"
+    },
+    "inventory" : { 
+      "title" : "Services", 
+      "url" : "https://pc.warface.com/en/inventory/"
+    },
+    "myitems" : { 
+      "title" : "My items", 
+      "url" : "https://pc.warface.com/profile/mycart/"
+    },
+    "support" : { 
+      "title" : "Customer support", 
+      "url" : "https://support.my.games/wf_int"
+    } 
+  },
+  "happyhours" : {
+    "title" : "Happy Hours Schedule from Monday to Friday",
+    "region1" : "International",
+    "text1" : "20:00 - 21:59 UTC\n22:00 - 23:59 CET\n04:00 - 05:59 HKT\n17:00 - 18:59 BRT\n07:00 - 09:00 UTC\n09:00 - 11:00 CET\n15:00 - 17:00 HKT\n04:00 - 05:59 BRT",
+    "region2" : "Russia",
+    "text2" : "10:00 - 11:00 MSK\n13:00 - 14:00 MSK\n22:00 - 23:00 MSK"
+  },
+  "me" : {
+    "name" : "Name",
+    "creation_date" : "Account creation date",
+    "top5" : "Top 5 Commands used",
+    "total" : "Total commands:",
+    "no_activity" : "No activity",
+    "joined_date" : "Joined this server:"
+  },
+  "player" : {
+    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "player_not_found" : "Player {{PLAYER_NAME}} does not exist.",
+    "player_inactive" : "Could not retrive stats. Player {{PLAYER_NAME}} is inactive.",
+    "player_hidden" : "{{PLAYER_NAME}} has hidden the statistics",
+    "unknown_error" : "Unknown error happened. Looks like warface server is down or in maintenance",
+    "title" : "statistics",
+    "rank" : "Rank",
+    "clan" : "Clan",
+    "no_clan" : "No clan",
+    "joined" : "Joined:",
+    "playtime" : "Playtime",
+    "hours" : "Hours",
+    "fav_class" : "Favourite class:",
+    "total" : "Total:",
+    "kills" : "Kills",
+    "friendly_kills" : "Friendly kills:",
+    "deaths" : "Deaths:",
+    "headshots" : "Headshots",
+    "games" : "Games",
+    "matches_left" : "Matches left:",
+    "won" : "Won:",
+    "lost" : "Lost:",
+    "more" : "More",
+    "rifle" : "Rifle:",
+    "medic" : "Medic:",
+    "engi" : "Engineer:",
+    "sniper" : "Sniper:",
+    "sed": "SED",
+    "kicked": "Kicked:",
+    "draws": "Draws:",
+    "melee": "Melee:",
+    "coins_used": "Coins Used:",
+    "shared": "Shared",
+    "damage": "Damage dealt:",
+    "climb_assist": "Climb assists:",
+    "climb_coops": "Climb coops:",
+    "ammo_restored": "Ammo restored:",
+    "revives": "Revives:",
+    "health_restored": "Restored health:",
+    "armor_restored": "Restored armor:",
+    "revived_by_med": "Revived by medic:"
+  },
+  "clan" : {
+    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "unknown_error" : "Unknown error happened. Looks like warface server is down or in maintenance",
+    "clan_not_found" : "Clan {{CLAN_NAME}} does not exist.",
+    "all_members_hidden" : "All members have hidden stats"
+  },
+  "ping" : {
+    "title" : ":globe_with_meridians: **Check your ping to Warface servers** :globe_with_meridians:",
+    "text" : "# EU\nping ams.ping.wf.my.com\n# NA\nping us-comm.wf.my.com\n# Turkey\nping istanbul.ping.wf.my.com\n# Tournament Server\nping pvp-comm.wf.my.com\n# Hong Kong Regional\nping hongkong.ping.wf.my.com\n# San Jose Regional\nping sj.ping.wf.my.com\n# Dallas Regional\nping dallas.ping.wf.my.com\n# Brazil\nping saopaulo.ping.wf.my.com\n# RU Alpha\nping s1.warface.ru\n# RU Bravo\nping s2.warface.ru\n# RU Charlie\nping s3.warface.ru"
+  },
+  "pve" : {
+    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "player_not_found" : "Player {{PLAYER_NAME}} does not exist.",
+    "player_inactive" : "Could not retrive stats. Player {{PLAYER_NAME}} is inactive.",
+    "player_hidden" : "{{PLAYER_NAME}} has hidden the statistics",
+    "unknown_error" : "Unknown error happened. Looks like warface server is down or in maintenance",
+    "won" : "Won:",
+    "lost" : "Lost:",
+    "coop" : "Coop",
+    "easy" : "Easy",
+    "normal" : "Normal",
+    "hard" : "Hard",
+    "nightmare" : "Nightmare",
+    "survivalmission" : "Tower Raid",
+    "campaignsection1" : "Cold Peak: Spearhead",
+    "campaignsection2" : "Cold Peak: Ambush",
+    "campaignsection3" : "Cold Peak: Zenith",
+    "campaignsections" : "Cold Peak: Marathon",
+    "volcano" : "Earthshaker",
+    "anubis" : "Anubis",
+    "blackout": "Blackout",
+    "black_shark" : "Black Shark",
+    "icebreaker" : "Icebreaker",
+    "chernobyl" : "Chernobyl",
+    "cyberhorde" : "Cyber Horde",
+    "sunrise": "Sunrise",
+    "mars" : "Mars",
+    "hydra" : "Hydra",
+    "blackwood": "Blackwood",
+    "swarm": "Swarm",
+    "heist": "Heist"
+  },
+  "weapon": {
+    "no_args" : "No search parameters were given.",
+    "no_results" : "No results were found for that search",
+    "instructions" : "Reply with the index of the desired gun within 20sec.",
+    "too_many_results" : "Too many results to display, look for a better filter. The word must be in the gun name, for example !weapon alpha if you want to look for AK-Alpha",
+    "wrong_selection" : "You entered an invalid selection. This value wasn't in the ones offered.",
+    "replytimeout" : "It took you too long to reply.",
+    "fire_params" : "Fire Parameters",
+    "damage" : "Damage:",
+    "rpm" : "RPM:",
+    "range" : "Range:",
+    "min_dmg" : "Min. damage:",
+    "dmg_drop" : "Dmg. drop/meter:",
+    "other" : "Other",
+    "mag" : "Clip:",
+    "extra_ammo" : "Extra ammo:",
+    "reload_duration"  : "Reload dur.:",
+    "select_duration"  : "Select dur.:",
+    "deselect_duration"  : "Deselect dur.:",
+    "melee_damage" : "Melee damage:",
+    "multipliers" : "Body multipliers",
+    "head" : "Head",
+    "chest" : "Chest",
+    "arms" : "Arms",
+    "legs" : "Legs"
+  },
+  "top10" : {
+    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "unknown_error" : "Unknown error happened. Looks like warface server is down or in maintenance",
+    "title" : "Monthly Clan Ladder for {{SERVER}}",
+    "clan" :"Clan Name",
+    "master" : "Master",
+    "points" : "Points"
+  },
+  "shop" : {
+    "available_options" : "No region selected. Available options int, ru",
+    "new" : "New",
+    "hot" : "Hot",
+    "discount" : "Discount"
+  },
+  "help" : {
+    "missions" : {
+      "title" : "Print scores and times for PVE CO-OP Full Crown",
+      "descr" : "`!missions` or `!missions specops`"
+    },
+    "stats" : {
+      "title" : "Show the current players connected to Warface International",
+      "descr" : "`!stats`"
+    },
+    "rustats" : {
+      "title" : "Show the current players connected to Warface RU",
+      "descr" : "`!rustats`"
+    },
+    "player" : {
+      "title" : "Check player statistics and info",
+      "descr" : "`!player server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "pve" : {
+      "title" : "Check player completion rate for PVE",
+      "descr" : "`!pve server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "clan" : {
+      "title" : "Check clan members",
+      "descr" : "`!clan server clan_name`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "weapon" : {
+      "title" : "Check full stats of a weapon / item",
+      "descr" : "`!weapon NAME` \nIt can be a keyword, no need for the actual name."
+    },
+    "shop" : {
+      "title" : "Check current in-game shop items",
+      "descr" : "!shop`\nDefaults to WF International. Also supports `ru` as argument. Has no console support."
+    },
+    "ping" : {
+      "title" : "Command lines that tells you how to check your ping on each server",
+      "descr" : "`!ping`"
+    },
+    "happyhours" : {
+      "title" : "Happy hour schedule",
+      "descr" : "`!happyhours`"
+    },
+    "news" : {
+      "title" : "Latest 4 news on Warface website",
+      "descr" : "`!news` Optional parameters: eu,ru,ps4,xbox\nNOTE: You can have the news pushed out to your server automatically on a specific channel if you use comamnd `!push_news`"
+    },
+    "me" : {
+      "title" : "Info about your user state",
+      "descr" : "`!me`"
+    },
+    "top10" : {
+      "title" : "TOP10 Monthly Clan Ladder",
+      "descr" : "`!top10`"
+    },
+    "goodies" : {
+      "title" : "Useful Links / Material",
+      "descr" : "`!goodies`"
+    },
+    "about" : {
+      "title" : "Information about the bot",
+      "descr" : "`!about`"
+    }
+  }
+}
