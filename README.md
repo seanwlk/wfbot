@@ -6,24 +6,24 @@
 </p>
 
 ## Functionalities
-Among the tools you could find there is stuff like checking current amount of online player per channel, game news, reference to useful materials, game ladders, player statistics and more to come.
-To have the full list of commands and functionalities type `!help` in chat.
+Among the tools you can find stuff like checking the current amount of online players per channel, game news, references to useful materials, game ladders, player statistics, and more.
+To get the full list of commands and functionalities type `!help` in chat.
 
 ## Prefix
 The default prefix is the exclamation mark `!` but can be changed by a user that has `ADMINISTRATOR` permissions.
 
 ## Language
-The default language is English but a user with `ADMINISTRATOR` permissions in a server can set a supported language by using `!language` command. 
-If your language is not currently supported you are more than welcome to submit one either by opening a pull request and creating a language.json file that you can find in `langs` folder or send the file to me via DM on discord and I'll add it.
+The default language is English but a user with `ADMINISTRATOR` permissions in a server can set a supported language by using the `!language` command. 
+If your language is not currently supported you are more than welcome to submit one either by opening a pull request and creating a language.json file that you can find in the `langs` folder or send the file to me via DM on discord and I'll add it.
 
 ## News channel setup
-To setup a news channel you can use the command `!push_news #news_channel_name` but there are a few conditions.
-- Only server owner is able to use said command
+To set up a news channel you can use the command `!push_news #news_channel_name` but there are a few conditions.
+- Only the server owner can use the command
 - It is possible to be configured only in servers with more than 20 members
-- It is possible to configure only **one** channel by type for each server (you can add pc, xbox, ps4 and ru news to the same server)
+- It is possible to configure only **one** channel by type for each server (you can add pc, Xbox, ps4, and ru news to the same server)
 
 ## Feedback
-If you have any feedback or ideas on new functionalities to be added to the bot please don't hesitate to [open an issue](https://github.com/seanwlk/wfbot/issues/new) or contact me on discord if you see me around, all ideas are very well appreciated since i would like to make an useful tool for everyone.
+If you have any feedback or ideas on new functionalities to be added to the bot please don't hesitate to [open an issue](https://github.com/seanwlk/wfbot/issues/new) or contact me on discord if you see me around, all ideas are very well appreciated since I would like to make a useful tool for everyone.
 
 ## Configuration and permissions
 I will not configure anything for anyone, you are the one that will have to fix the eventual missing permissions for the bot. **It requires to read, write and send embeds** in the channels. It's up to you to configure it in a way that users won't abuse/spam the commands in normal chats.
@@ -40,7 +40,7 @@ You just have to click [here](https://discordapp.com/oauth2/authorize?client_id=
 ![example](https://i.imgur.com/HOHUEy7.png)
 
 ## Disclaimer 
-Take the functionalities as they are, at the moment I do not plan to add a custom prefix per server and deep customization of commands. There can be downtimes of certain commands due to their backend that runs on my homeserver instead of the VPS. I reserve the right of adding/removing/changing features so if something stops working just check `!help`
+Take the functionalities as they are, at the moment I do not plan to add a custom prefix per server and deep customization of commands. There can be downtimes of certain commands due to their backend that runs on my home server instead of the VPS. I reserve the right of adding/removing/changing features so if something stops working just check `!help`
 
 ## Donate
 Please consider donating to support the project and maintain the server on which the bot is running. Thanks.
