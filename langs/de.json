@@ -1,0 +1,250 @@
+{
+  "about" : {
+    "title" : "\u2139 Über wfbot \u2139",
+    "purpose_t" : "Zweck",
+    "purpose_p" : "Es ist für Warface Discord Server gedacht und bietet den Spielern nützliche Tools.",
+    "utilities_t" : "Hilfsprogramme",
+    "utilities_p" : "Dieser Bot beinhaltet Tools wie beispielsweise die Überprüfung der _aktuellen_ Spieleranzahl pro Server, Spielnachrichten, Ranglisten, sonstige nützliche Materialien und mehr.",
+    "credits_t" : "Credits",
+    "credits_p" : "Der Bot-Client wurde vollständig entwickelt und gestaltet von <@159015952346906624> in Node.js mit der Ergänzung der _Game-Layer-Integration_ durch das Projekt [warfacebot](https://github.com/Levak/warfacebot) von <@241671775019204609>.",
+    "feedback_t" : "Rückmeldung",
+    "feedback_p" : "Wenn Sie Feedback oder Ideen für neue Funktionalitäten haben, die dem Bot hinzugefügt werden sollen, senden Sie bitte eine DM <@159015952346906624>, alle Ideen sind sehr willkommen.",
+    "add_t" : "Hinzufügen zu Ihrem Server",
+    "add_p" : "[Hier klicken](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) oder lesen Sie die Dokumentation hier: https://github.com/seanwlk/wfbot",
+    "donate_t" : "Spenden",
+    "donate_p" : "https://paypal.me/seanwlk \nBitte ziehen Sie eine Spende in Betracht, um das Projekt zu unterstützen und den Server, auf dem der Bot läuft, zu unterhalten. Wenn es für Sie kostenlos ist, bedeutet dies nicht, dass ich es für jeden der {{CURRENT_GUILDS}}-Servern kostenlos angeboten werden kann. Danke!"
+  },
+  "goodies" : {
+    "title" : "\u2139\uFE0F Nützliche Links \u2139\uFE0F",
+    "wiki" : { 
+      "title" : "Warface Wiki", 
+      "url" : "https://warface.fandom.com/wiki/Warface_Wiki"
+    },
+    "ongoing_events" : { 
+      "title" : "Laufende In-Game-Events", 
+      "url" : "https://pc.warface.com/en/eventsingame"
+    },
+    "specops_rewards" : { 
+      "title" : "Spec-Ops-Belohnungen", 
+      "url" : "https://pc.warface.com/forums/showthread.php?t=63901"
+    },
+    "achievements" : { 
+      "title" : "Errungenschaften", 
+      "url" : "https://warface.fandom.com/wiki/Challenges"
+    },
+    "inventory" : { 
+      "title" : "Dienste", 
+      "url" : "https://pc.warface.com/en/inventory/"
+    },
+    "myitems" : { 
+      "title" : "Meine Artikel", 
+      "url" : "https://pc.warface.com/profile/mycart/"
+    },
+    "support" : { 
+      "title" : "Kundenbetreuung", 
+      "url" : "https://support.my.games/wf_int"
+    } 
+  },
+  "happyhours" : {
+    "title" : "Happy Hours Zeitplan von Montag bis Freitag",
+    "region1" : "International",
+    "text1" : "20:00 - 21:59 UTC\n22:00 - 23:59 CET\n04:00 - 05:59 HKT\n17:00 - 18:59 BRT\n07:00 - 09:00 UTC\n09:00 - 11:00 CET\n15:00 - 17:00 HKT\n04:00 - 05:59 BRT",
+    "region2" : "Russland",
+    "text2" : "10:00 - 11:00 MSK\n13:00 - 14:00 MSK\n22:00 - 23:00 MSK"
+  },
+  "me" : {
+    "name" : "Name",
+    "creation_date" : "Datum der Kontoerstellung",
+    "top5" : "Top 5 der verwendeten Befehle",
+    "total" : "Befehle insgesamt:",
+    "no_activity" : "Keine Aktivität",
+    "joined_date" : "Diesem Server beigetreten am:"
+  },
+  "player" : {
+    "available_options" : "Kein Server ausgewählt. Verfügbare Optionen: int,alpha,bravo,charlie",
+    "player_not_found" : "Spieler {{PLAYER_NAME}} existiert nicht.",
+    "player_inactive" : "Konnte die Statistiken nicht abrufen. Spieler {{PLAYER_NAME}} ist inaktiv.",
+    "player_hidden" : "{{PLAYER_NAME}} hat die Statistik versteckt",
+    "unknown_error" : "Unbekannter Fehler ist aufgetreten. Sieht aus, als ob der Warface-Server heruntergefahren oder in Wartung ist",
+    "title" : "Statistik",
+    "rank" : "Rang",
+    "clan" : "Clan",
+    "no_clan" : "Kein Clan",
+    "joined" : "Beigetreten:",
+    "playtime" : "Spielzeit",
+    "hours" : "Stunden",
+    "fav_class" : "Bevorzugte Klasse:",
+    "total" : "Gesamt:",
+    "kills" : "Tötungen",
+    "friendly_kills" : "Freundliche Tötungen:",
+    "deaths" : "Tode:",
+    "headshots" : "Kopfschüsse",
+    "games" : "Spiele",
+    "matches_left" : "Spiele verlassen:",
+    "won" : "Gewonnen:",
+    "lost" : "Verloren:",
+    "more" : "Mehr",
+    "rifle" : "Schütze:",
+    "medic" : "Sanitäter:",
+    "engi" : "Ingenieur:",
+    "sniper" : "Scharfschütze:",
+    "sed": "SED",
+    "kicked": "Gekickt:",
+    "draws": "Unentschieden:",
+    "melee": "Nahkampf:",
+    "coins_used": "Verwendete Münzen:",
+    "shared": "Klassenübergreifende Informationen",
+    "damage": "Verursachter Schaden:",
+    "climb_assist": "Klettern geholfen:",
+    "climb_coops": "Zusammen geklettert:",
+    "ammo_restored": "Munition wiederhergestellt:",
+    "revives": "Wiederbelebungen:",
+    "health_restored": "Wiederhergestellte Lebenspunkte:",
+    "armor_restored": "Wiederhergestellte Rüstungspunkte:",
+    "revived_by_med": "Von einem Sanitäter wiederbelebt:"
+  },
+  "clan" : {
+    "available_options" : "Kein Server ausgewählt. Verfügbare Optionen: int,alpha,bravo,charlie",
+    "unknown_error" : "Unbekannter Fehler ist aufgetreten. Sieht aus, als ob der Warface-Server heruntergefahren oder in Wartung ist",
+    "clan_not_found" : "Clan {{CLAN_NAME}} existiert nicht.",
+    "all_members_hidden" : "Alle Mitglieder haben versteckte Statistiken"
+  },
+  "ping" : {
+    "title" : ":globe_with_meridians: **Prüfen Sie Ihren Ping zu Warface-Servern** :globe_with_meridians:",
+    "text" : "# EU\nping ams.ping.wf.my.com\n# NA\nping us-comm.wf.my.com\n# Türkei\nping istanbul.ping.wf.my.com\n# Turnier-Server\nping pvp-comm.wf.my.com\n# Hong Kong Regional\nping hongkong.ping.wf.my.com\n# San Jose Regional\nping sj.ping.wf.my.com\n# Dallas Regional\nping dallas.ping.wf.my.com\n# Brasilien\nping saopaulo.ping.wf.my.com\n# RU Alpha\nping s1.warface.ru\n# RU Bravo\nping s2.warface.ru\n# RU Charlie\nping s3.warface.ru"
+  },
+  "pve" : {
+    "available_options" : "Kein Server ausgewählt. Verfügbare Optionen: int,alpha,bravo,charlie",
+    "player_not_found" : "Spieler {{PLAYER_NAME}} existiert nicht.",
+    "player_inactive" : "Konnte die Statistiken nicht wiederherstellen. Spieler {{PLAYER_NAME}} ist inaktiv.",
+    "player_hidden" : "{{PLAYER_NAME}} hat die Statistik versteckt",
+    "unknown_error" : "Unbekannter Fehler ist aufgetreten. Sieht aus, als ob der Warface-Server heruntergefahren oder in Wartung ist",
+    "won" : "Gewonnen:",
+    "lost" : "Verloren:",
+    "coop" : "Coop",
+    "easy" : "Einfach",
+    "normal" : "Normal",
+    "hard" : "Schwer",
+    "nightmare" : "Albtraum",
+    "survivalmission" : "Das HQ",
+    "campaignsection1" : "Eisiger Gipfel: Stoßtrupp",
+    "campaignsection2" : "Eisiger Gipfel: Hinterhalt",
+    "campaignsection3" : "Eisiger Gipfel: Zenit",
+    "campaignsections" : "Eisiger Gipfel: Marathon",
+    "volcano" : "Earth Shaker",
+    "anubis" : "Anubis",
+    "blackout": "Blackout",
+    "black_shark" : "Black Shark",
+    "icebreaker" : "Icebreaker",
+    "chernobyl" : "Pripjat",
+    "cyberhorde" : "Cyber Horde",
+    "sunrise": "Sunrise",
+    "mars" : "Mars",
+    "hydra" : "Hydra",
+    "blackwood": "Blackwood",
+    "swarm": "Schwarm",
+    "heist": "Raubüberfall"
+  },
+  "weapon": {
+    "no_args" : "Es wurden keine Suchparameter angegeben.",
+    "no_results" : "Für diese Suche wurden keine Ergebnisse gefunden",
+    "instructions" : "Antworten Sie innerhalb von 20s mit dem Index der gewünschten Waffe.",
+    "too_many_results" : "Zu viele Ergebnisse zum Anzeigen, suchen Sie nach einem besseren Filter. Das Wort muss im Waffennamen enthalten sein, zum Beispiel !weapon alpha, wenn Sie nach AK-Alpha suchen möchten",
+    "wrong_selection" : "Sie haben eine ungültige Auswahl eingegeben. Dieser Wert war nicht unter den angebotenen.",
+    "replytimeout" : "Es hat zu lange gedauert, bis Sie geantwortet haben.",
+    "fire_params" : "Feuer-Parameter",
+    "damage" : "Schaden:",
+    "rpm" : "RPM:",
+    "range" : "Reichweite:",
+    "min_dmg" : "Min. Schaden:",
+    "dmg_drop" : "Schadensabfall pro Meter:",
+    "other" : "Andere",
+    "mag" : "Magazin:",
+    "extra_ammo" : "Extra Munition:",
+    "reload_duration"  : "Nachladegeschwindigkeit:",
+    "select_duration"  : "Auswahlgeschwindigkeit:",
+    "deselect_duration"  : "Wegsteckgeschwindigkeit:",
+    "melee_damage" : "Nahkampf-Schaden:",
+    "multipliers" : "Körper-Multiplikatoren",
+    "head" : "Kopf",
+    "chest" : "Brust",
+    "arms" : "Arme",
+    "legs" : "Beine"
+  },
+  "top10" : {
+    "available_options" : "Kein Server ausgewählt. Verfügbare Optionen: int,alpha,bravo,charlie",
+    "unknown_error" : "Unbekannter Fehler ist aufgetreten. Sieht aus, als ob der Warface-Server heruntergefahren oder in Wartung ist",
+    "title" : "Monatliche Clan-Rangliste für {{SERVER}}",
+    "clan" :"Clan-Name",
+    "master" : "Master",
+    "points" : "Punkte"
+  },
+  "shop" : {
+    "available_options" : "Keine Region ausgewählt. Verfügbare Optionen: int, ru",
+    "new" : "Neu",
+    "hot" : "Heiß",
+    "discount" : "Rabatt"
+  },
+  "help" : {
+    "missions" : {
+      "title" : "Spielstände und Zeiten für PVE CO-OP Full Crown ausgeben",
+      "descr" : "`!missions` oder `!missions specops`"
+    },
+    "stats" : {
+      "title" : "Anzeige der aktuell mit Warface International verbundenen Spieler",
+      "descr" : "`!stats`"
+    },
+    "rustats" : {
+      "title" : "Zeigt die aktuell mit Warface RU verbundenen Spieler an",
+      "descr" : "`!rustats`"
+    },
+    "player" : {
+      "title" : "Spielerstatistiken und Informationen prüfen",
+      "descr" : "`!player server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "pve" : {
+      "title" : "Spielerabschlussrate für PVE prüfen",
+      "descr" : "`!pve server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "clan" : {
+      "title" : "Clan-Mitglieder prüfen",
+      "descr" : "`!clan server clan_name`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "weapon" : {
+      "title" : "Vollständige Werte einer Waffe / eines Gegenstands prüfen",
+      "descr" : "`!weapon NAME` \nEs kann ein Schlüsselwort sein, der eigentliche Name muss nicht angegeben werden."
+    },
+    "shop" : {
+      "title" : "Aktuelle Shop-Artikel im Spiel prüfen",
+      "descr" : "!shop`\nStandardmäßig wird WF International verwendet. Unterstützt auch `ru` als Argument. Hat keine Konsolenunterstützung."
+    },
+    "ping" : {
+      "title" : "Befehlszeilen, die Ihnen sagen, wie Sie Ihren Ping auf jedem Server überprüfen können",
+      "descr" : "`!ping`"
+    },
+    "happyhours" : {
+      "title" : "Zeitplan für die Happy Hour",
+      "descr" : "`!happyhours`"
+    },
+    "news" : {
+      "title" : "Neuesten 4 Nachrichten auf der Warface-Website",
+      "descr" : "`!news` Optionale Parameter: eu,ru,ps4,xbox\nHINWEIS: Sie können die News auf einem bestimmten Kanal automatisch auf Ihren Server pushen lassen, indem Sie das Kommando `!push_news` verwenden"
+    },
+    "me" : {
+      "title" : "Info über Ihren Nutzer-Status",
+      "descr" : "`!me`"
+    },
+    "top10" : {
+      "title" : "TOP10 Monatliche Clan-Rangliste",
+      "descr" : "`!top10`"
+    },
+    "goodies" : {
+      "title" : "Nützliche Links / Materialien",
+      "descr" : "`!goodies`"
+    },
+    "about" : {
+      "title" : "Informationen über den Bot",
+      "descr" : "`!about`"
+    }
+  }
+}
