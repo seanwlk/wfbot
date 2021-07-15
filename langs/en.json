@@ -216,14 +216,14 @@
     },
     "shop" : {
       "title" : "Check current in-game shop items",
-      "descr" : "!shop`\nDefaults to WF International. Also supports `ru` as argument. Has no console support."
+      "descr" : "`!shop region`\n    region -> INT / RU. Has no console support."
     },
     "ping" : {
       "title" : "Command lines that tells you how to check your ping on each server",
       "descr" : "`!ping`"
     },
     "happyhours" : {
-      "title" : "Happy hour schedule",
+      "title" : "Happy hours schedule",
       "descr" : "`!happyhours`"
     },
     "news" : {
@@ -236,7 +236,7 @@
     },
     "top10" : {
       "title" : "TOP10 Monthly Clan Ladder",
-      "descr" : "`!top10`"
+      "descr" : "`!top10 server`\n    server -> INT / Alpha / Bravo / Charlie"
     },
     "goodies" : {
       "title" : "Useful Links / Material",
