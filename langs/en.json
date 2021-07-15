@@ -219,7 +219,7 @@
       "descr" : "!shop`\nDefaults to WF International. Also supports `ru` as argument. Has no console support."
     },
     "ping" : {
-      "title" : "Command lines that tells you how to check your ping on each server",
+      "title" : "Command lines that tell you how to check your ping on each server",
       "descr" : "`!ping`"
     },
     "happyhours" : {
@@ -228,7 +228,7 @@
     },
     "news" : {
       "title" : "Latest 4 news on Warface website",
-      "descr" : "`!news` Optional parameters: eu,ru,ps4,xbox\nNOTE: You can have the news pushed out to your server automatically on a specific channel if you use comamnd `!push_news`"
+      "descr" : "`!news` Optional parameters: eu,ru,ps4,xbox\nNOTE: You can have the news pushed out to your server automatically on a specific channel if you use the command `!push_news`"
     },
     "me" : {
       "title" : "Info about your user state",
