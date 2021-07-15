@@ -1,0 +1,250 @@
+{
+  "about" : {
+    "title" : "\u2139 A wfbot-ról \u2139",
+    "purpose_t" : "Célja",
+    "purpose_p" : "Warfaces discord szerverekhez készült és hasznos eszközöket kínál a játékosoknak.",
+    "utilities_t" : "Funkciók",
+    "utilities_p" : "Az eszközök között találhatsz olyanokat is, melyekkel például lekérheted a _jelenleg_ online játékosok számát, híreket a jékról, ranglétrákat, hasznos linkeket, stb.",
+    "credits_t" : "A készítő",
+    "credits_p" : "A bot klienst <@159015952346906624> tervezte meg és kézsítette el Node.js-ben a <@241671775019204609> által készített [warfacebot](https://github.com/Levak/warfacebot) projekt _játék réteg integráció_jának segítségével.",
+    "feedback_t" : "Visszajelzés",
+    "feedback_p" : "Ha van bármilyen javaslatod vagy ötleted, amit hozzá lehetne adni a bothoz, írj egy üzenetet a készítőnek: <@159015952346906624>! Minden ötletet nagyra értékelünk.",
+    "add_t" : "Add hozzá saját szerveredhez",
+    "add_p" : "[Kattints ide](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) vagy olvasd el a dokumentációt itt: https://github.com/seanwlk/wfbot",
+    "donate_t" : "Adományozás",
+    "donate_p" : "https://paypal.me/seanwlk \nFontold meg, kérlek, hogy támogatod a projektet és a botot futtató szerver fenntartását! Attól még, hogy ingyenes hozzáadhatod, nem jelenti azt, hogy én ingyenesen felajánlhatom minenkinek {{CURRENT_GUILDS}} szerveren. Köszönöm!"
+  },
+  "goodies" : {
+    "title" : "\u2139\uFE0F Hasznos linkek \u2139\uFE0F",
+    "wiki" : { 
+      "title" : "Warface Wiki", 
+      "url" : "https://warface.fandom.com/wiki/Warface_Wiki"
+    },
+    "ongoing_events" : { 
+      "title" : "Folyamatban lévő játékbeli események", 
+      "url" : "https://pc.warface.com/en/eventsingame"
+    },
+    "specops_rewards" : { 
+      "title" : "Speciális-hadművelet jutalmak", 
+      "url" : "https://pc.warface.com/forums/showthread.php?t=63901"
+    },
+    "achievements" : { 
+      "title" : "Mérföldkövek", 
+      "url" : "https://warface.fandom.com/wiki/Challenges"
+    },
+    "inventory" : { 
+      "title" : "Szolgáltatások", 
+      "url" : "https://pc.warface.com/en/inventory/"
+    },
+    "myitems" : { 
+      "title" : "Saját tárgyak", 
+      "url" : "https://pc.warface.com/profile/mycart/"
+    },
+    "support" : { 
+      "title" : "Vevőszolgálat", 
+      "url" : "https://support.my.games/wf_int"
+    } 
+  },
+  "happyhours" : {
+    "title" : "Boldog órák időbeosztás hétfőtől péntekig",
+    "region1" : "Nemzetközi",
+    "text1" : "20:00 - 21:59 UTC\n22:00 - 23:59 CET\n04:00 - 05:59 HKT\n17:00 - 18:59 BRT\n07:00 - 09:00 UTC\n09:00 - 11:00 CET\n15:00 - 17:00 HKT\n04:00 - 05:59 BRT",
+    "region2" : "Orosz",
+    "text2" : "10:00 - 11:00 MSK\n13:00 - 14:00 MSK\n22:00 - 23:00 MSK"
+  },
+  "me" : {
+    "name" : "Név",
+    "creation_date" : "Fiók létrehozásának dátuma",
+    "top5" : "5 leggyakrabban használt parancs",
+    "total" : "Összes parancs:",
+    "no_activity" : "Nincs aktivitás",
+    "joined_date" : "Csatlakozás a szerverhez"
+  },
+  "player" : {
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "player_not_found" : "A {{PLAYER_NAME}} nevű játékos nem létezik.",
+    "player_inactive" : "Nem sikerült lekérni a statisztikákat. {{PLAYER_NAME}} inaktív.",
+    "player_hidden" : "{{PLAYER_NAME}} elrejtette a statisztikáit.",
+    "unknown_error" : "Ismeretlen hiba történt. Úgy tűnik a Warface szerver offline vagy épp karbantartás van.",
+    "title" : "statisztikák",
+    "rank" : "Rang",
+    "clan" : "Klán",
+    "no_clan" : "Nincs klán",
+    "joined" : "Csatlakozva:",
+    "playtime" : "Játékidő",
+    "hours" : "óra",
+    "fav_class" : "Kedvenc osztály:",
+    "total" : "Összesen:",
+    "kills" : "Ölések",
+    "friendly_kills" : "Baráti ölések:",
+    "deaths" : "Halálok:",
+    "headshots" : "Fejlövések",
+    "games" : "Játékok",
+    "matches_left" : "Elhagyott meccsek:",
+    "won" : "Megnyert:",
+    "lost" : "Elvesztett:",
+    "more" : "Több",
+    "rifle" : "Puskás:",
+    "medic" : "Felcser:",
+    "engi" : "Mérnök:",
+    "sniper" : "Mesterlövész:",
+    "sed": "SED",
+    "kicked": "Kirúgva:",
+    "draws": "Döntetlen:",
+    "melee": "Közelharc:",
+    "coins_used": "Elhasznált Érmék:",
+    "shared": "Megosztott",
+    "damage": "Okozott sebzés:",
+    "climb_assist": "Mászás felsegítések:",
+    "climb_coops": "Mászás együttműködések:",
+    "ammo_restored": "Lőszer visszatöltések:",
+    "revives": "Újraélesztések:",
+    "health_restored": "Visszatöltött életerő:",
+    "armor_restored": "Visszatöltött páncél:",
+    "revived_by_med": "Felcser által újraélesztve:"
+  },
+  "clan" : {
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "unknown_error" : "Ismeretlen hiba történt. Úgy tűnik a Warface szerver offline vagy épp karbantartás van.",
+    "clan_not_found" : "A {{CLAN_NAME}} nevű klán nem létezik.",
+    "all_members_hidden" : "Az összes tag statisztikája rejtett."
+  },
+  "ping" : {
+    "title" : ":globe_with_meridians: **Nézd meg a Warface szerverek válaszidejét** :globe_with_meridians:",
+    "text" : "# Európai\nping ams.ping.wf.my.com\n# Észak amerikai\nping us-comm.wf.my.com\n# Török\nping istanbul.ping.wf.my.com\n# Versenyszerver\nping pvp-comm.wf.my.com\n# Honkongi régió\nping hongkong.ping.wf.my.com\n# San Jose-i régió\nping sj.ping.wf.my.com\n# Dallasi régió\nping dallas.ping.wf.my.com\n# Brazil\nping saopaulo.ping.wf.my.com\n# Orosz Alpha\nping s1.warface.ru\n# Orosz Bravo\nping s2.warface.ru\n# Orosz Charlie\nping s3.warface.ru"
+  },
+  "pve" : {
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "player_not_found" : "A {{PLAYER_NAME}} nevű játékos nem létezik.",
+    "player_inactive" : "Nem sikerült lekérni a statisztikákat. {{PLAYER_NAME}} inaktív.",
+    "player_hidden" : "{{PLAYER_NAME}} elrejtette a statisztikáit.",
+    "unknown_error" : "Ismeretlen hiba történt. Úgy tűnik a Warface szerver offline vagy épp karbantartás van.",
+    "won" : "Megynert:",
+    "lost" : "Elvesztett:",
+    "coop" : "Kooperációs küldetések",
+    "easy" : "Könnyű",
+    "normal" : "Normál",
+    "hard" : "Nehéz",
+    "nightmare" : "Rémálom",
+    "survivalmission" : "Torony razzia",
+    "campaignsection1" : "Hideg csúcs: Lándzsahegy",
+    "campaignsection2" : "Hideg csúcs: Lesből támadás",
+    "campaignsection3" : "Hideg csúcs: Zenit",
+    "campaignsections" : "Hideg csúcs: Maraton",
+    "volcano" : "Földrengő",
+    "anubis" : "Anubisz",
+    "blackout": "Áramszünet",
+    "black_shark" : "Fekete cápa",
+    "icebreaker" : "Jégtörő",
+    "chernobyl" : "Pripjaty",
+    "cyberhorde" : "Kiber horda",
+    "sunrise": "Napkelte",
+    "mars" : "Mars",
+    "hydra" : "Hydra",
+    "blackwood": "Feketefa",
+    "swarm": "Raj",
+    "heist": "Bankrablás"
+  },
+  "weapon": {
+    "no_args" : "Nincsenek megadva keresési paraméterek.",
+    "no_results" : "Nincs találat a keresésre.",
+    "instructions" : "Válaszolj a kívánt fegyver sorszámával 20 másodpercen belül!",
+    "too_many_results" : "Túl sok keresési találat, próbálj meg egy jobb kulcsszót! A kulcsszónak benne kell lennie a fegyver nevében, például !weapon alpha ha az AK-Alpha-ra szeretnél keresni",
+    "wrong_selection" : "Érvénytelen sorszám. Ez az érték nem volt a felsoroltak között.",
+    "replytimeout" : "Túl sokáig tartott válaszolni.",
+    "fire_params" : "Tüzelési paraméterek",
+    "damage" : "Sebzés:",
+    "rpm" : "L/P:",
+    "range" : "Lőtávolság:",
+    "min_dmg" : "Min. sebzés:",
+    "dmg_drop" : "Seb. csökkenés/méter:",
+    "other" : "Egyéb",
+    "mag" : "Tár:",
+    "extra_ammo" : "Extra lőszer:",
+    "reload_duration"  : "Újratöltés ideje:",
+    "select_duration"  : "Elővétel ideje:",
+    "deselect_duration"  : "Elrakás ideje:",
+    "melee_damage" : "Közelharci sebzés:",
+    "multipliers" : "Sebzés szorzók",
+    "head" : "Fejre",
+    "chest" : "Mellkasra",
+    "arms" : "Kézre",
+    "legs" : "Lábra"
+  },
+  "top10" : {
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "unknown_error" : "Ismeretlen hiba történt. Úgy tűnik a Warface szerver offline vagy épp karbantartás van.",
+    "title" : "{{SERVER}} szerver havi klán ranglétrája",
+    "clan" :"Klánnév",
+    "master" : "Főnök",
+    "points" : "Pontok"
+  },
+  "shop" : {
+    "available_options" : "Nincs régió kiválasztva. Lehetőségek: int, ru",
+    "new" : "Új",
+    "hot" : "Felkapott",
+    "discount" : "Leárazott"
+  },
+  "help" : {
+    "missions" : {
+      "title" : "Kiírja a szükséges pontokat és időt a teljes koronás JKE küldetésekhez",
+      "descr" : "`!missions` vagy `!missions specops`"
+    },
+    "stats" : {
+      "title" : "Kiírja a jelenleg a Warface nemzetközi szervereihez csatlakozott játékosok számát",
+      "descr" : "`!stats`"
+    },
+    "rustats" : {
+      "title" : "Kiírja a jelenleg a Warface orosz szervereihez csatlakozott játékosok számát",
+      "descr" : "`!rustats`"
+    },
+    "player" : {
+      "title" : "Kiírja egy adott játékos statisztikáit és egyéb információit",
+      "descr" : "`!player szerver játékosnév`\n    szerver -> INT / Alpha / Bravo / Charlie"
+    },
+    "pve" : {
+      "title" : "Kiírja egy adott játékos JKE küldetés teljesítési arányait",
+      "descr" : "`!pve szerver játékosnév`\n    szerver -> INT / Alpha / Bravo / Charlie"
+    },
+    "clan" : {
+      "title" : "Kiírja egy adott klán tagjait",
+      "descr" : "`!clan szerver klánnév`\n    szerver -> INT / Alpha / Bravo / Charlie"
+    },
+    "weapon" : {
+      "title" : "Kiírja egy adott fegyver/tárgy statisztikáit",
+      "descr" : "`!weapon NÉV` \nElég egy kulcsszó is, nem kell a teljes név."
+    },
+    "shop" : {
+      "title" : "Kiírja a játékbeli bolt jelenlegi választékát",
+      "descr" : "!shop`\nAlapból a nemzetközi szerver kínálatát jeleníti meg. A `ru` argumentummal kiegészítve megnézhető az orosz szerverek kínálata is. Konzollal nem működik."
+    },
+    "ping" : {
+      "title" : "Parancs, ami segít megnézni a válaszidőt az összes szerveren",
+      "descr" : "`!ping`"
+    },
+    "happyhours" : {
+      "title" : "Boldog órák időbeosztás",
+      "descr" : "`!happyhours`"
+    },
+    "news" : {
+      "title" : "Legutóbbi 4 hír a Warface weboldalon",
+      "descr" : "`!news` Választható paraméterek: eu,ru,ps4,xbox\nMEGJEGYZÉS: Megkaphatot a híreket a szerverre automatikusan egy adott csatornára a `!push_news` parancs segítségével"
+    },
+    "me" : {
+      "title" : "Információ a felhasználói állapotról",
+      "descr" : "`!me`"
+    },
+    "top10" : {
+      "title" : "Havi 10 legjobb klán ranglétra",
+      "descr" : "`!top10`"
+    },
+    "goodies" : {
+      "title" : "Hasznos linkek / segédanyagok",
+      "descr" : "`!goodies`"
+    },
+    "about" : {
+      "title" : "Információ a bottal kapcsolatban",
+      "descr" : "`!about`"
+    }
+  }
+}
