@@ -1,0 +1,250 @@
+{
+  "about" : {
+    "title" : "\u2139 Tietoja wfbotista \u2139",
+    "purpose_t" : "Käyttötarkoitus",
+    "purpose_p" : "Se on tarkoitettu Warface discord - palvelimille ja tarjoaa pelaajille hyödyllisiä työkaluja.",
+    "utilities_t" : "Apuohjelmia",
+    "utilities_p" : "Työkalujen joukossa on muun muassa sellaisia työkaluja kuin kanavakohtaisen online-pelaajan _nykyisen_ määrän tarkistaminen, peliuutisia, tapahtumat, viittaus hyödyllisiin materiaaleihin, pelin pistetaulukot ja paljon muuta.",
+    "credits_t" : "Hyvitykset",
+    "credits_p" : "Bottiasiakkaan on kehittänyt ja suunnitellut täysin <@159015952346906624> Node.js:ssä lisäämällä _pelikerroksen integrointi_ projektissa [warfacebot](https://github.com/Levak/warfacebot) tehnyt <@241671775019204609>.",
+    "feedback_t" : "Palaute",
+    "feedback_p" : "Jos sinulla on palautetta tai ideoita bottiin lisättävistä uusista ominaisuuksista, ilmoita DM <@159015952346906624>, kaikki ideat ovat erittäin tervetulleita.",
+    "add_t" : "Lisää palvelimelle",
+    "add_p" : "[Klikkaa tästä](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) tai lue dokumentaatio täältä: https://github.com/seanwlk/wfbot",
+    "donate_t" : "Lahjoita",
+    "donate_p" : "https://paypal.me/seanwlk \nHarkitse lahjoittamista tukeaksesi projektia ja ylläpitääksesi palvelinta, jolla botti toimii. Jos sen lisääminen on sinulle ilmaista, se ei tarkoita, että minun on tarjottava sitä kaikille {{CURRENT_GUILDS}}-palvelimille. Kiitos."
+  },
+  "goodies" : {
+    "title" : "\u2139\uFE0F Hyödyllisiä linkkejä \u2139\uFE0F",
+    "wiki" : { 
+      "title" : "Warface Wiki", 
+      "url" : "https://warface.fandom.com/wiki/Warface_Wiki"
+    },
+    "ongoing_events" : { 
+      "title" : "Käynnissä olevat pelin sisäiset tapahtumat", 
+      "url" : "https://pc.warface.com/en/eventsingame"
+    },
+    "specops_rewards" : { 
+      "title" : "Spec-Ops palkinnot", 
+      "url" : "https://pc.warface.com/forums/showthread.php?t=63901"
+    },
+    "achievements" : { 
+      "title" : "Saavutukset", 
+      "url" : "https://warface.fandom.com/wiki/Challenges"
+    },
+    "inventory" : { 
+      "title" : "Palvelut", 
+      "url" : "https://pc.warface.com/en/inventory/"
+    },
+    "myitems" : { 
+      "title" : "Omat tavarani", 
+      "url" : "https://pc.warface.com/profile/mycart/"
+    },
+    "support" : { 
+      "title" : "Asiakastuki", 
+      "url" : "https://support.my.games/wf_int"
+    } 
+  },
+  "happyhours" : {
+    "title" : "Happy Hours -aikataulu maanantaista perjantaihin",
+    "region1" : "Kansainvälinen",
+    "text1" : "20:00 - 21:59 UTC\n22:00 - 23:59 CET\n04:00 - 05:59 HKT\n17:00 - 18:59 BRT\n07:00 - 09:00 UTC\n09:00 - 11:00 CET\n15:00 - 17:00 HKT\n04:00 - 05:59 BRT",
+    "region2" : "Venäjä",
+    "text2" : "10:00 - 11:00 MSK\n13:00 - 14:00 MSK\n22:00 - 23:00 MSK"
+  },
+  "me" : {
+    "name" : "Nimi",
+    "creation_date" : "Tilin luontipäivämäärä",
+    "top5" : "5 käytetyintä komentoa",
+    "total" : "Komennot yhteensä:",
+    "no_activity" : "Ei toimintaa",
+    "joined_date" : "Liityin tälle palvelimelle:"
+  },
+  "player" : {
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "player_not_found" : "Pelaajaa {{PLAYER_NAME}} ei ole olemassa.",
+    "player_inactive" : "Tilastoja ei voitu hakea. Pelaaja {{PELAAJA_NIMI}} ei ole aktiivinen.",
+    "player_hidden" : "{{PLAYER_NAME}} on piilottanut tilastonsa",
+    "unknown_error" : "Tuntematon virhe tapahtui. Näyttää siltä, että warface-palvelin on alhaalla tai huollossa.",
+    "title" : "tilastot",
+    "rank" : "Sijoitus",
+    "clan" : "Klaani",
+    "no_clan" : "Ei klaania",
+    "joined" : "Liittynyt:",
+    "playtime" : "Peliaika",
+    "hours" : "Tunnit",
+    "fav_class" : "Suosikkiluokka:",
+    "total" : "Yhteensä:",
+    "kills" : "Tappoja",
+    "friendly_kills" : "Ystävä tappoja:",
+    "deaths" : "Kuolemia:",
+    "headshots" : "Pääosumia",
+    "games" : "Pelit",
+    "matches_left" : "Lähdetyt Ottelut:",
+    "won" : "Voitto:",
+    "lost" : "Häviö:",
+    "more" : "Lisää",
+    "rifle" : "Kiväärimies:",
+    "medic" : "Lääkintömies:",
+    "engi" : "Insinööri:",
+    "sniper" : "Tarkka-ampuja:",
+    "sed": "SED",
+    "kicked": "Kicked:",
+    "draws": "Tasapelejä:",
+    "melee": "Melee:",
+    "coins_used": "Käytetyt kolikot:",
+    "shared": "Jaettu",
+    "damage": "Aiheutettu vahinko:",
+    "climb_assist": "Nousuavustukset:",
+    "climb_coops": "Avustettuja nousuja:",
+    "ammo_restored": "Ammuksia palautettu:",
+    "revives": "Elvytyksiä:",
+    "health_restored": "Elämää palautettu:",
+    "armor_restored": "Panssaria palautettu:",
+    "revived_by_med": "Lääkintämiehen elvyttämä:"
+  },
+  "clan" : {
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "unknown_error" : "Tuntematon virhe tapahtui. Näyttää siltä, että warface-palvelin on alhaalla tai huollossa.",
+    "clan_not_found" : "Klaania {{CLAN_NAME}} ei ole olemassa.",
+    "all_members_hidden" : "Kaikilla jäsenillä on piilotetut tilastot"
+  },
+  "ping" : {
+    "title" : ":globe_with_meridians: **Tarkista pingisi Warface-palvelimille** :globe_with_meridians:",
+    "text" : "# EU\nping ams.ping.wf.my.com\n# NA\nping us-comm.wf.my.com\n# Turkki\nping istanbul.ping.wf.my.com\n# Turnauspalvelin\nping pvp-comm.wf.my.com\n# Hongkongin alueellinen\nping hongkong.ping.wf.my.com\n# San Josén alueellinen\nping sj.ping.wf.my.com\n# Dallasin alueellinen\nping dallas.ping.wf.my.com\n# Brasilia\nping saopaulo.ping.wf.my.com\n# RU Alpha\nping s1.warface.ru\n# RU Bravo\nping s2.warface.ru\n# RU Charlie\nping s3.warface.ru"
+  },
+  "pve" : {
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "player_not_found" : "Pelaajaa {{PLAYER_NAME}} ei ole olemassa.",
+    "player_inactive" : "Tilastoja ei voitu hakea. Pelaaja {{PELAAJA_NIMI}} ei ole aktiivinen.",
+    "player_hidden" : "{{PLAYER_NAME}} on piilottanut tilastonsa",
+    "unknown_error" : "Tuntematon virhe tapahtui. Näyttää siltä, että warface-palvelin on alhaalla tai huollossa.",
+    "won" : "Voitto:",
+    "lost" : "Häviö:",
+    "coop" : "Coop",
+    "easy" : "Helppo",
+    "normal" : "Normaali",
+    "hard" : "Vaikea",
+    "nightmare" : "Painajainen",
+    "survivalmission" : "Päämaja",
+    "campaignsection1" : "Kylmä huippu: Spearhead",
+    "campaignsection2" : "Kylmä huippu: Väijytys",
+    "campaignsection3" : "Kylmä huippu: Zenith",
+    "campaignsections" : "Kylmä huippu: Maraton",
+    "volcano" : "Earth Shaker",
+    "anubis" : "Anubis",
+    "blackout": "Blackout",
+    "black_shark" : "Black Shark",
+    "icebreaker" : "Jäänmurtaja",
+    "chernobyl" : "Tšernobyl",
+    "cyberhorde" : "Cyber Horde",
+    "sunrise": "Sunrise",
+    "mars" : "Mars",
+    "hydra" : "Hydra",
+    "blackwood": "Blackwood",
+    "swarm": "Parvi",
+    "heist": "Ryöstö"
+  },
+  "weapon": {
+    "no_args" : "Hakuparametreja ei annettu.",
+    "no_results" : "Tällä haulla ei löytynyt tuloksia",
+    "instructions" : "Vastaa haluamasi aseen indeksillä 20 sekunnin kuluessa.",
+    "too_many_results" : "Liian monta tulosta näytettäväksi, etsi parempi suodatin. Sanan on oltava aseen nimessä, esimerkiksi !weapon alpha, jos haluat etsiä AK-alphaa.",
+    "wrong_selection" : "Annoit virheellisen valinnan. Tämä arvo ei ollut tarjolla olevien joukossa.",
+    "replytimeout" : "Sinulta kesti liian kauan vastata.",
+    "fire_params" : "Paloparametrit",
+    "damage" : "Vahingot:",
+    "rpm" : "RPM:",
+    "range" : "Kantavuus:",
+    "min_dmg" : "Min. vahinko:",
+    "dmg_drop" : "Dmg. pudotus/metri:",
+    "other" : "Muut",
+    "mag" : "Clip:",
+    "extra_ammo" : "Lisäammuksia:",
+    "reload_duration"  : "Latausajan kesto.:",
+    "select_duration"  : "Valinnan kesto.:",
+    "deselect_duration"  : "Poisvalinnan kesto.:",
+    "melee_damage" : "Lähitaisteluvahinko:",
+    "multipliers" : "Kertoimet",
+    "head" : "Pää",
+    "chest" : "Rinta",
+    "arms" : "Kädet",
+    "legs" : "Jalat"
+  },
+  "top10" : {
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "unknown_error" : "Tuntematon virhe tapahtui. Näyttää siltä, että warface-palvelin on alhaalla tai huollossa.",
+    "title" : "Kuukausittaista klaanitaulukkoa {{SERVER}} varten",
+    "clan" :"Klaanin nimi",
+    "master" : "Master",
+    "points" : "Pisteet"
+  },
+  "shop" : {
+    "available_options" : "Ei valittua aluetta. Käytettävissä olevat vaihtoehdot: int, ru",
+    "new" : "Uusi",
+    "hot" : "Suosittu",
+    "discount" : "Alennus"
+  },
+  "help" : {
+    "missions" : {
+      "title" : "Tulosta PVE CO-OP Full Crownin pisteet ja ajat",
+      "descr" : "`!missions` tai `!missions specops`"
+    },
+    "stats" : {
+      "title" : "Näytä nykyiset pelaajat, jotka ovat yhteydessä Warface Internationaliin",
+      "descr" : "`!stats`"
+    },
+    "rustats" : {
+      "title" : "Näytä nykyiset pelaajat, jotka ovat yhteydessä Warface RU:een",
+      "descr" : "`!rustats`"
+    },
+    "player" : {
+      "title" : "Tarkista pelaajatilastot ja tiedot",
+      "descr" : "`!player server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "pve" : {
+      "title" : "Tarkista pelaajien valmistumisaste PVE:ssä",
+      "descr" : "`!pve server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "clan" : {
+      "title" : "Tarkista klaanin jäsenet",
+      "descr" : "`!clan server clan_name`\n    server -> INT / Alpha / Bravo / Charlie"
+    },
+    "weapon" : {
+      "title" : "Tarkista aseen / esineen täydelliset tilastot.",
+      "descr" : "`!weapon NAME` \nSe voi olla avainsana, varsinaista nimeä ei tarvita."
+    },
+    "shop" : {
+      "title" : "Tarkista nykyiset pelikaupan tuotteet",
+      "descr" : "!shop`\nOletusarvo on WF International. Tukee myös `ru`-argumenttia. Ei konsolitukea."
+    },
+    "ping" : {
+      "title" : "Komentorivit, jotka kertovat, miten voit tarkistaa pingin kullakin palvelimella.",
+      "descr" : "`!ping`"
+    },
+    "happyhours" : {
+      "title" : "Happy hourin aikataulu",
+      "descr" : "`!happyhours`"
+    },
+    "news" : {
+      "title" : "Viimeisimmät 4 uutista Warface-sivustolla",
+      "descr" : "`!news` Valinnaiset parametrit: eu,ru,ps4,xbox\nHuomaa: Voit saada uutiset lähetettyä palvelimellesi automaattisesti tietylle kanavalle, jos käytät comamnd `!push_news`."
+    },
+    "me" : {
+      "title" : "Tietoa käyttäjän tilasta",
+      "descr" : "`!me`"
+    },
+    "top10" : {
+      "title" : "TOP10 Kuukausittainen klaanitaulukko",
+      "descr" : "`!top10`"
+    },
+    "goodies" : {
+      "title" : "Hyödyllisiä linkkejä / materiaalia",
+      "descr" : "`!goodies`"
+    },
+    "about" : {
+      "title" : "Tietoa botista",
+      "descr" : "`!about`"
+    }
+  }
+}
