@@ -35,7 +35,7 @@ You can encounter some bugs/errors while using it and the bot will either reply 
 - :no_entry_sign: = Missing permissions
 
 ## Add to your server
-You just have to click [here](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) and then select the server you want to add the bot to, like in the following picture.
+You just have to click [here](https://discord.com/oauth2/authorize?client_id=310134676620574720&scope=bot+applications.commands&permissions=67619905) and then select the server you want to add the bot to, like in the following picture.
 
 ![example](https://i.imgur.com/HOHUEy7.png)
 
