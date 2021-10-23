@@ -10,7 +10,7 @@
     "feedback_t" : "Visszajelzés",
     "feedback_p" : "Ha van bármilyen javaslatod vagy ötleted, amit hozzá lehetne adni a bothoz, írj egy üzenetet a készítőnek: <@159015952346906624>! Minden ötletet nagyra értékelünk.",
     "add_t" : "Add hozzá saját szerveredhez",
-    "add_p" : "[Kattints ide](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) vagy olvasd el a dokumentációt itt: https://github.com/seanwlk/wfbot",
+    "add_p" : "[Kattints ide](https://discord.com/oauth2/authorize?client_id=310134676620574720&scope=bot+applications.commands&permissions=67619905) vagy olvasd el a dokumentációt itt: https://github.com/seanwlk/wfbot",
     "donate_t" : "Adományozás",
     "donate_p" : "https://paypal.me/seanwlk \nFontold meg, kérlek, hogy támogatod a projektet és a botot futtató szerver fenntartását! Attól még, hogy ingyenes hozzáadhatod, nem jelenti azt, hogy én ingyenesen felajánlhatom minenkinek {{CURRENT_GUILDS}} szerveren. Köszönöm!"
   },

@@ -10,7 +10,7 @@
     "feedback_t" : "Feedback",
     "feedback_p" : "If you have any feedback or ideas on new functionalities to be added to the bot please DM <@159015952346906624>, all ideas are very well appreciated.",
     "add_t" : "Add to your server",
-    "add_p" : "[Click Here](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) or read documentation here: https://github.com/seanwlk/wfbot",
+    "add_p" : "[Click Here](https://discord.com/oauth2/authorize?client_id=310134676620574720&scope=bot+applications.commands&permissions=67619905) or read documentation here: https://github.com/seanwlk/wfbot",
     "donate_t" : "Donate",
     "donate_p" : "https://paypal.me/seanwlk \nPlease consider donating to support the project and maintain the server on which the bot is running. If it's free for you to add it doesn't mean it is for me to offer it to everyone in {{CURRENT_GUILDS}} servers. Thanks."
   },

@@ -10,7 +10,7 @@
     "feedback_t" : "Palaute",
     "feedback_p" : "Jos sinulla on palautetta tai ideoita bottiin lisättävistä uusista ominaisuuksista, ilmoita DM <@159015952346906624>, kaikki ideat ovat erittäin tervetulleita.",
     "add_t" : "Lisää palvelimelle",
-    "add_p" : "[Klikkaa tästä](https://discordapp.com/oauth2/authorize?client_id=310134676620574720&scope=bot&permissions=67619905) tai lue dokumentaatio täältä: https://github.com/seanwlk/wfbot",
+    "add_p" : "[Klikkaa tästä](https://discord.com/oauth2/authorize?client_id=310134676620574720&scope=bot+applications.commands&permissions=67619905) tai lue dokumentaatio täältä: https://github.com/seanwlk/wfbot",
     "donate_t" : "Lahjoita",
     "donate_p" : "https://paypal.me/seanwlk \nHarkitse lahjoittamista tukeaksesi projektia ja ylläpitääksesi palvelinta, jolla botti toimii. Jos sen lisääminen on sinulle ilmaista, se ei tarkoita, että minun on tarjottava sitä kaikille {{CURRENT_GUILDS}}-palvelimille. Kiitos."
   },
