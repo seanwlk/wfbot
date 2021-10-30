@@ -1,0 +1,10 @@
+{
+    "bot_token" : "BOT_TOKEN",
+    "clientId" : "BOT_ID",
+    "devServer" : "DEV_SERVER",
+    "errorLogChannel" : "ERROR_LOG_CHANNEL",
+    "logChannel" : "LOG_CHANNEL",
+    "defaultSettings": {
+      "language" : "en"
+    }
+}
