@@ -61,7 +61,7 @@
     "joined_date" : "Liityin tälle palvelimelle:"
   },
   "player" : {
-    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,ru",
     "player_not_found" : "Pelaajaa {{PLAYER_NAME}} ei ole olemassa.",
     "player_inactive" : "Tilastoja ei voitu hakea. Pelaaja {{PELAAJA_NIMI}} ei ole aktiivinen.",
     "player_hidden" : "{{PLAYER_NAME}} on piilottanut tilastonsa",
@@ -104,7 +104,7 @@
     "revived_by_med": "Lääkintämiehen elvyttämä:"
   },
   "clan" : {
-    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,ru",
     "unknown_error" : "Tuntematon virhe tapahtui. Näyttää siltä, että warface-palvelin on alhaalla tai huollossa.",
     "clan_not_found" : "Klaania {{CLAN_NAME}} ei ole olemassa.",
     "all_members_hidden" : "Kaikilla jäsenillä on piilotetut tilastot"
@@ -114,7 +114,7 @@
     "text" : "# EU\nping ams.ping.wf.my.com\n# NA\nping us-comm.wf.my.com\n# Turkki\nping istanbul.ping.wf.my.com\n# Turnauspalvelin\nping pvp-comm.wf.my.com\n# Hongkongin alueellinen\nping hongkong.ping.wf.my.com\n# San Josén alueellinen\nping sj.ping.wf.my.com\n# Dallasin alueellinen\nping dallas.ping.wf.my.com\n# Brasilia\nping saopaulo.ping.wf.my.com\n# RU Alpha\nping s1.warface.ru\n# RU Bravo\nping s2.warface.ru\n# RU Charlie\nping s3.warface.ru"
   },
   "pve" : {
-    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,ru",
     "player_not_found" : "Pelaajaa {{PLAYER_NAME}} ei ole olemassa.",
     "player_inactive" : "Tilastoja ei voitu hakea. Pelaaja {{PELAAJA_NIMI}} ei ole aktiivinen.",
     "player_hidden" : "{{PLAYER_NAME}} on piilottanut tilastonsa",
@@ -143,7 +143,8 @@
     "hydra" : "Hydra",
     "blackwood": "Blackwood",
     "swarm": "Parvi",
-    "heist": "Ryöstö"
+    "heist": "Ryöstö",
+    "labirinthsurvival" : "Labirinth"
   },
   "weapon": {
     "no_args" : "Hakuparametreja ei annettu.",
@@ -172,7 +173,7 @@
     "legs" : "Jalat"
   },
   "top10" : {
-    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,alpha,bravo,charlie",
+    "available_options" : "Palvelinta ei ole valittu. Käytettävissä olevat vaihtoehdot: int,ru",
     "unknown_error" : "Tuntematon virhe tapahtui. Näyttää siltä, että warface-palvelin on alhaalla tai huollossa.",
     "title" : "Kuukausittaista klaanitaulukkoa {{SERVER}} varten",
     "clan" :"Klaanin nimi",
@@ -200,15 +201,15 @@
     },
     "player" : {
       "title" : "Tarkista pelaajatilastot ja tiedot",
-      "descr" : "`!player server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!player server nickname`\n    server -> INT / RU"
     },
     "pve" : {
       "title" : "Tarkista pelaajien valmistumisaste PVE:ssä",
-      "descr" : "`!pve server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!pve server nickname`\n    server -> INT / RU"
     },
     "clan" : {
       "title" : "Tarkista klaanin jäsenet",
-      "descr" : "`!clan server clan_name`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!clan server clan_name`\n    server -> INT / RU"
     },
     "weapon" : {
       "title" : "Tarkista aseen / esineen täydelliset tilastot.",
