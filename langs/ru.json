@@ -61,7 +61,7 @@
     "joined_date" : "Присоединился к серверу:"
   },
   "player" : {
-    "available_options" : "Сервер не выбран. Доступные опции: Альфа, Браво, Чарли",
+    "available_options" : "Сервер не выбран. Доступные опции: int,ru",
     "player_not_found" : "Игрок {{PLAYER_NAME}} не найден.",
     "player_inactive" : "Не удалось получить статистику. Игрок {{PLAYER_NAME}} неактивен.",
     "player_hidden" : "Игрок {{PLAYER_NAME}} скрыл статистику.",
@@ -104,7 +104,7 @@
     "revived_by_med": "Возвращен в бой:"
   },
   "clan" : {
-    "available_options" : "Сервер не выбран. Доступные опции: Альфа, Браво, Чарли",
+    "available_options" : "Сервер не выбран. Доступные опции: int,ru",
     "unknown_error" : "Произошла ошибка. Вероятно, серверы игры не работают или находятся на технических работах.",
     "clan_not_found" : "Клан {{CLAN_NAME}} не найден.",
     "all_members_hidden" : "Все участники клана скрыли статистику."
@@ -114,7 +114,7 @@
     "text" : "# Альфа\nping s1.warface.ru\n# Браво\nping s2.warface.ru\n# Чарли\nping s3.warface.ru\n# Новосибирск\nping novosibirsk.ping.warface.ru\n# Краснодар\nping krasnodar.ping.warface.ru\n# Хабаровск\nping khabarovsk.ping.warface.ru"
   },
   "pve" : {
-    "available_options" : "Сервер не выбран. Доступные опции: Альфа, Браво, Чарли",
+    "available_options" : "Сервер не выбран. Доступные опции: int,ru",
     "player_not_found" : "Игрок {{PLAYER_NAME}} не найден.",
     "player_inactive" : "Не удалось получить статистику. Игрок {{PLAYER_NAME}} неактивен.",
     "player_hidden" : "Игрок {{PLAYER_NAME}} скрыл статистику.",
@@ -143,7 +143,8 @@
     "hydra" : "Гидра",
     "blackwood": "Операция Blackwood",
     "swarm": "Рой",
-    "heist": "Ограбление"
+    "heist": "Ограбление",
+    "labirinthsurvival" : "Labirinth"
   },
   "weapon": {
     "no_args" : "Не заданы параметры поиска.",
@@ -172,7 +173,7 @@
     "legs" : "Ноги"
   },
   "top10" : {
-    "available_options" : "Сервер не выбран. Доступные опции: Альфа, Браво, Чарли",
+    "available_options" : "Сервер не выбран. Доступные опции: int,ru",
     "unknown_error" : "Произошла ошибка. Вероятно, серверы игры не работают или находятся на технических работах.",
     "title" : "Ежемесячный топ кланов сервера {{SERVER}}",
     "clan" :"Название клана",
@@ -200,15 +201,15 @@
     },
     "player" : {
       "title" : "Узнать информацию и статистику игрока",
-      "descr" : "`!игрок server nickname`\n    server -> INT / Альфа / Браво / Чарли"
+      "descr" : "`!игрок server nickname`\n    server -> INT / RU"
     },
     "pve" : {
       "title" : "Узнать статистику игрока в PVE",
-      "descr" : "`!статапве server nickname`\n    server -> INT / Альфа / Браво / Чарли"
+      "descr" : "`!статапве server nickname`\n    server -> INT / RU"
     },
     "clan" : {
       "title" : "Узнать состав клана",
-      "descr" : "`!клан server clan_name`\n    server -> INT / Альфа / Браво / Чарли"
+      "descr" : "`!клан server clan_name`\n    server -> INT / RU"
     },
     "weapon" : {
       "title" : "Узнать ТТХ оружия или предмета",
