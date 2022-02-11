@@ -61,7 +61,7 @@
     "joined_date" : "Entrou no servidor em:"
   },
   "player" : {
-    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,alpha,bravo,charlie",
+    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,ru",
     "player_not_found" : "Jogador {{PLAYER_NAME}} não existe.",
     "player_inactive" : "Não foi possível mostrar as estatísticas. Jogador {{PLAYER_NAME}} está inativo.",
     "player_hidden" : "{{PLAYER_NAME}} ocultou as estatísticas",
@@ -104,7 +104,7 @@
     "revived_by_med": "Revivido por médico:"
   },
   "clan" : {
-    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,alpha,bravo,charlie",
+    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,ru",
     "unknown_error" : "Ocorreu um erro desconhecido. Parece que o servidor o Warface está fora do ar ou em manutenção",
     "clan_not_found" : "Clã {{CLAN_NAME}} não existe.",
     "all_members_hidden" : "Todos os membros têm as informações ocultas"
@@ -114,7 +114,7 @@
     "text" : "# Europa\nping ams.ping.wf.my.com\n# América do Norte\nping us-comm.wf.my.com\n# Turquia\nping istanbul.ping.wf.my.com\n# Servidor de Torneios\nping pvp-comm.wf.my.com\n# Hong Kong\nping hongkong.ping.wf.my.com\n# San Jose\nping sj.ping.wf.my.com\n# Dallas\nping dallas.ping.wf.my.com\n# Brasil\nping saopaulo.ping.wf.my.com\n# Rússia Alpha\nping s1.warface.ru\n# Rússia Bravo\nping s2.warface.ru\n# Rússia Charlie\nping s3.warface.ru"
   },
   "pve" : {
-    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,alpha,bravo,charlie",
+    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,ru",
     "player_not_found" : "Jogador {{PLAYER_NAME}} não existe.",
     "player_inactive" : "Não foi possível mostrar as estatísticas. Jogador {{PLAYER_NAME}} está inativo.",
     "player_hidden" : "{{PLAYER_NAME}} ocultou as estatísticas",
@@ -143,7 +143,8 @@
     "hydra" : "Hydra",
     "blackwood": "Blackwood",
     "swarm": "Enxame",
-    "heist": "Assalto"
+    "heist": "Assalto",
+    "labirinthsurvival" : "Labirinth"
   },
   "weapon": {
     "no_args" : "Nenhum parâmetro de busca foi dado.",
@@ -172,7 +173,7 @@
     "legs" : "Pernas"
   },
   "top10" : {
-    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,alpha,bravo,charlie",
+    "available_options" : "Nenhum servidor selecionado. Opções disponíveis: int,ru",
     "unknown_error" : "Ocorreu um erro desconhecido. Parece que o servidor o Warface está fora do ar ou em manutenção",
     "title" : "Rank mensal de clãs no {{SERVER}}",
     "clan" :"Nome do clã",
@@ -200,15 +201,15 @@
     },
     "player" : {
       "title" : "Mostrar informações do jogador",
-      "descr" : "`!player servidor nick`\n    servidores -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!player servidor nick`\n    servidores -> INT / RU"
     },
     "pve" : {
       "title" : "Mostrar informações de vitória/derrota do jogador no Coop",
-      "descr" : "`!pve servidor nick`\n    servidor -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!pve servidor nick`\n    servidor -> INT / RU"
     },
     "clan" : {
       "title" : "Mostrar informações de um clã",
-      "descr" : "`!clan servidor nome_do_cla`\n    servidor -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!clan servidor nome_do_cla`\n    servidor -> INT / RU"
     },
     "weapon" : {
       "title" : "Mostrar todas as informações de uma arma / item",
