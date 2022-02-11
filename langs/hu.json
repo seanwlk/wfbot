@@ -61,7 +61,7 @@
     "joined_date" : "Csatlakozás a szerverhez"
   },
   "player" : {
-    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,ru",
     "player_not_found" : "A {{PLAYER_NAME}} nevű játékos nem létezik.",
     "player_inactive" : "Nem sikerült lekérni a statisztikákat. {{PLAYER_NAME}} inaktív.",
     "player_hidden" : "{{PLAYER_NAME}} elrejtette a statisztikáit.",
@@ -104,7 +104,7 @@
     "revived_by_med": "Felcser által újraélesztve:"
   },
   "clan" : {
-    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,ru",
     "unknown_error" : "Ismeretlen hiba történt. Úgy tűnik a Warface szerver offline vagy épp karbantartás van.",
     "clan_not_found" : "A {{CLAN_NAME}} nevű klán nem létezik.",
     "all_members_hidden" : "Az összes tag statisztikája rejtett."
@@ -114,7 +114,7 @@
     "text" : "# Európai\nping ams.ping.wf.my.com\n# Észak amerikai\nping us-comm.wf.my.com\n# Török\nping istanbul.ping.wf.my.com\n# Versenyszerver\nping pvp-comm.wf.my.com\n# Honkongi régió\nping hongkong.ping.wf.my.com\n# San Jose-i régió\nping sj.ping.wf.my.com\n# Dallasi régió\nping dallas.ping.wf.my.com\n# Brazil\nping saopaulo.ping.wf.my.com\n# Orosz Alpha\nping s1.warface.ru\n# Orosz Bravo\nping s2.warface.ru\n# Orosz Charlie\nping s3.warface.ru"
   },
   "pve" : {
-    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,ru",
     "player_not_found" : "A {{PLAYER_NAME}} nevű játékos nem létezik.",
     "player_inactive" : "Nem sikerült lekérni a statisztikákat. {{PLAYER_NAME}} inaktív.",
     "player_hidden" : "{{PLAYER_NAME}} elrejtette a statisztikáit.",
@@ -143,7 +143,8 @@
     "hydra" : "Hydra",
     "blackwood": "Feketefa",
     "swarm": "Raj",
-    "heist": "Bankrablás"
+    "heist": "Bankrablás",
+    "labirinthsurvival" : "Labirinth"
   },
   "weapon": {
     "no_args" : "Nincsenek megadva keresési paraméterek.",
@@ -172,7 +173,7 @@
     "legs" : "Lábra"
   },
   "top10" : {
-    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,alpha,bravo,charlie",
+    "available_options" : "Nincs szerver kiválasztva. Lehetőségek: int,ru",
     "unknown_error" : "Ismeretlen hiba történt. Úgy tűnik a Warface szerver offline vagy épp karbantartás van.",
     "title" : "{{SERVER}} szerver havi klán ranglétrája",
     "clan" :"Klánnév",
@@ -200,15 +201,15 @@
     },
     "player" : {
       "title" : "Kiírja egy adott játékos statisztikáit és egyéb információit",
-      "descr" : "`!player szerver játékosnév`\n    szerver -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!player szerver játékosnév`\n    szerver -> INT / RU"
     },
     "pve" : {
       "title" : "Kiírja egy adott játékos JKE küldetés teljesítési arányait",
-      "descr" : "`!pve szerver játékosnév`\n    szerver -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!pve szerver játékosnév`\n    szerver -> INT / RU"
     },
     "clan" : {
       "title" : "Kiírja egy adott klán tagjait",
-      "descr" : "`!clan szerver klánnév`\n    szerver -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!clan szerver klánnév`\n    szerver -> INT / RU"
     },
     "weapon" : {
       "title" : "Kiírja egy adott fegyver/tárgy statisztikáit",
