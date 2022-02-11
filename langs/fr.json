@@ -61,7 +61,7 @@
     "joined_date" : "J'ai rejoint ce serveur le:"
   },
   "player" : {
-    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,alpha,bravo,charlie",
+    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,ru",
     "player_not_found" : "Le joueur {{PLAYER_NAME}} n'existe pas.",
     "player_inactive" : "Impossible de récupérer les statistiques. Le joueur {{PLAYER_NAME}} est inactif.",
     "player_hidden" : "{{PLAYER_NAME}} a caché les statistiques",
@@ -104,7 +104,7 @@
     "revived_by_med": "Réanimé par un médecin:"
   },
   "clan" : {
-    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,alpha,bravo,charlie",
+    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,ru",
     "unknown_error" : "Une erreur inconnue s'est produite. On dirait que le serveur Warface est en panne ou en maintenance.",
     "clan_not_found" : "Le clan {{CLAN_NAME}} n'existe pas.",
     "all_members_hidden" : "Tous les membres ont des statistiques cachées"
@@ -114,7 +114,7 @@
     "text" : "# EU\nping ams.ping.wf.my.com\n# NA\nping us-comm.wf.my.com\n# Turquie\nping istanbul.ping.wf.my.com\n# Tournament Server\nping pvp-comm.wf.my.com\n# Région de Hong Kong\nping hongkong.ping.wf.my.com\n# Région de San Jose\nping sj.ping.wf.my.com\n# Région de Dallas\nping dallas.ping.wf.my.com\n# Brésil\nping saopaulo.ping.wf.my.com\n# RU Alpha\nping s1.warface.ru\n# RU Bravo\nping s2.warface.ru\n# RU Charlie\nping s3.warface.ru"
   },
   "pve" : {
-    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,alpha,bravo,charlie",
+    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,ru",
     "player_not_found" : "Le joueur {{PLAYER_NAME}} n'existe pas.",
     "player_inactive" : "Impossible de récupérer les statistiques. Le joueur {{PLAYER_NAME}} est inactif.",
     "player_hidden" : "{{PLAYER_NAME}} a caché ses statistiques",
@@ -143,7 +143,8 @@
     "hydra" : "Hydra",
     "blackwood": "Opération Blackwood",
     "swarm": "Essaim",
-    "heist": "Heist"
+    "heist": "Heist",
+    "labirinthsurvival" : "Labirinth"
   },
   "weapon": {
     "no_args" : "Aucun paramètre de recherche n'a été donné.",
@@ -172,7 +173,7 @@
     "legs" : "Jambes"
   },
   "top10" : {
-    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,alpha,bravo,charlie",
+    "available_options" : "Aucun serveur n'est sélectionné. Options disponibles: int,ru",
     "unknown_error" : "Une erreur inconnue s'est produite. On dirait que le serveur Warface est en panne ou en maintenance.",
     "title" : "Classement mensuel de clan pour {{SERVER}}",
     "clan" :"Nom du clan",
@@ -200,15 +201,15 @@
     },
     "player" : {
       "title" : "Vérifier les statistiques et les informations sur les joueurs",
-      "descr" : "`!player server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!player server nickname`\n    server -> INT / RU"
     },
     "pve" : {
       "title" : "Vérifier le nombre d'achèvement des joueurs pour PVE",
-      "descr" : "`!pve server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!pve server nickname`\n    server -> INT / RU"
     },
     "clan" : {
       "title" : "Vérifier les membres du clan",
-      "descr" : "`!clan server clan_name`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!clan server clan_name`\n    server -> INT / RU"
     },
     "weapon" : {
       "title" : "Vérifier les statistiques complètes d'une arme ou d'un objet",
