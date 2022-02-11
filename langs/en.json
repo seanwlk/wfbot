@@ -61,7 +61,7 @@
     "joined_date" : "Joined this server:"
   },
   "player" : {
-    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "available_options" : "No server selected. Available options: int,ru",
     "player_not_found" : "Player {{PLAYER_NAME}} does not exist.",
     "player_inactive" : "Could not retrive stats. Player {{PLAYER_NAME}} is inactive.",
     "player_hidden" : "{{PLAYER_NAME}} has hidden the statistics",
@@ -104,7 +104,7 @@
     "revived_by_med": "Revived by medic:"
   },
   "clan" : {
-    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "available_options" : "No server selected. Available options: int,ru",
     "unknown_error" : "Unknown error happened. Looks like warface server is down or in maintenance",
     "clan_not_found" : "Clan {{CLAN_NAME}} does not exist.",
     "all_members_hidden" : "All members have hidden stats"
@@ -114,7 +114,7 @@
     "text" : "# EU\nping ams.ping.wf.my.com\n# NA\nping us-comm.wf.my.com\n# Turkey\nping istanbul.ping.wf.my.com\n# Tournament Server\nping pvp-comm.wf.my.com\n# Hong Kong Regional\nping hongkong.ping.wf.my.com\n# San Jose Regional\nping sj.ping.wf.my.com\n# Dallas Regional\nping dallas.ping.wf.my.com\n# Brazil\nping saopaulo.ping.wf.my.com\n# RU Alpha\nping s1.warface.ru\n# RU Bravo\nping s2.warface.ru\n# RU Charlie\nping s3.warface.ru"
   },
   "pve" : {
-    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "available_options" : "No server selected. Available options: int,ru",
     "player_not_found" : "Player {{PLAYER_NAME}} does not exist.",
     "player_inactive" : "Could not retrive stats. Player {{PLAYER_NAME}} is inactive.",
     "player_hidden" : "{{PLAYER_NAME}} has hidden the statistics",
@@ -143,7 +143,8 @@
     "hydra" : "Hydra",
     "blackwood": "Blackwood",
     "swarm": "Swarm",
-    "heist": "Heist"
+    "heist": "Heist",
+    "labirinthsurvival" : "Labirinth"
   },
   "weapon": {
     "no_args" : "No search parameters were given.",
@@ -172,7 +173,7 @@
     "legs" : "Legs"
   },
   "top10" : {
-    "available_options" : "No server selected. Available options: int,alpha,bravo,charlie",
+    "available_options" : "No server selected. Available options: int,ru",
     "unknown_error" : "Unknown error happened. Looks like warface server is down or in maintenance",
     "title" : "Monthly Clan Ladder for {{SERVER}}",
     "clan" :"Clan Name",
@@ -200,15 +201,15 @@
     },
     "player" : {
       "title" : "Check player statistics and info",
-      "descr" : "`!player server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!player server nickname`\n    server -> INT / RU"
     },
     "pve" : {
       "title" : "Check player completion rate for PVE",
-      "descr" : "`!pve server nickname`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!pve server nickname`\n    server -> INT / RU"
     },
     "clan" : {
       "title" : "Check clan members",
-      "descr" : "`!clan server clan_name`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!clan server clan_name`\n    server -> INT / RU"
     },
     "weapon" : {
       "title" : "Check full stats of a weapon / item",
@@ -236,7 +237,7 @@
     },
     "top10" : {
       "title" : "TOP10 Monthly Clan Ladder",
-      "descr" : "`!top10 server`\n    server -> INT / Alpha / Bravo / Charlie"
+      "descr" : "`!top10 server`\n    server -> INT / RU"
     },
     "goodies" : {
       "title" : "Useful Links / Material",
