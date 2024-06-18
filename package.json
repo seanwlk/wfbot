@@ -27,6 +27,6 @@
     "enmap": "^5.8.7",
     "node-fetch": "^3.2.10",
     "nodemon": "^2.0.22",
-    "rss-parser": "^3.12.0"
+    "rss-parser": "^3.13.0"
   }
 }
